@@ -58,13 +58,13 @@ public class Delimiters
         //return ralse
         return false;
       }
-      //if openCount is equal to closedCount
+    }
+    //if openCount is equal to closedCount
       if(openCount == closedCount)
       {
         //return true
         return true;
       }
-    }
     //return false
     return false;
 	}
